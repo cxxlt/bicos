@@ -1,0 +1,8 @@
+{
+    "servicos": [
+      { "id": 1, "descricao": "Pedreiro Experiente", "categoria": "reformas", "preco": "10" },
+      { "id": 2, "descricao": "Mecânico Peugeot", "categoria": "automovel", "preco": "35" },
+      { "id": 3, "descricao": "Cortar grama", "categoria": "reformas", "preco": "27" }
+
+    ]
+  }
