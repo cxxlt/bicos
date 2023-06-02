@@ -1,6 +1,6 @@
 {
     "jobs": [
-  {
+      {
     "id": 1,
     "descricao": "Pedreiro Experiente",
     "apresentacao": "Pedreiro experiente pra levantar a casa rápido",
@@ -105,5 +105,5 @@
     "distancia_km": "28",
     "verificado": "nao"
   }
-]
+    ]
 }
