@@ -1,37 +1,109 @@
 {
     "jobs": [
-        {
-            "id": 1,
-            "descricao": "Pedreiro Experiente",
-            "apresentacao": "Pedreiro experiente pra levantar a casa rápido",
-            "categoria": "reformas",
-            "preco": "20",
-            "created_at": "01/05/2023",
-            "imageUrl": "https://th.bing.com/th/id/R.020cc1e31ab2012c21d3bf221899de33?rik=dMWiuCUwQVK8%2bg&pid=ImgRaw&r=0",
-            "tempo_servico": "4 horas p/ dia"
-
-        },
-        {
-            "id": 2,
-            "descricao": "Mecânico Pegeout",
-            "apresentacao": "Mecânico que entenda de carros Pegeout para resolver meu problema no painel do mesmo",
-            "categoria": "automovel",
-            "preco": "65",
-            "created_at": "03/05/2023",
-            "imageUrl": "https://img.estadao.com.br/resources/jpg/6/5/1511721627356.jpg",
-            "tempo_servico": "livre"
-
-        },
-        {
-            "id": 3,
-            "descricao": "Cortar Grama",
-            "apresentacao": "Cortar a grama da minha casa",
-            "categoria": "reformas",
-            "preco": "12",
-            "created_at": "05/05/2023",
-            "imageUrl": "https://th.bing.com/th/id/R.ed5e8bcecd03cba4a42075ce69609e3e?rik=zt1CWAEBuRnTjw&pid=ImgRaw&r=0",
-            "tempo_servico": "terminar em 1 dia"
-
-        }
-    ]
+  {
+    "id": 1,
+    "descricao": "Pedreiro Experiente",
+    "apresentacao": "Pedreiro experiente pra levantar a casa rápido",
+    "categoria": "reformas",
+    "preco": "20",
+    "created_at": "01/05/2023",
+    "imageUrl": "https://th.bing.com/th/id/R.020cc1e31ab2012c21d3bf221899de33?rik=dMWiuCUwQVK8%2bg&pid=ImgRaw&r=0",
+    "tempo_servico": "4 horas p/ dia",
+    "situacao": "aberto",
+    "candidatos": [1, 2, 3, 4],
+    "contratante": 1,
+    "distancia_km": "24",
+    "verificado": "sim"
+  },
+  {
+    "id": 2,
+    "descricao": "Mecânico Pegeout",
+    "apresentacao": "Mecânico que entenda de carros Pegeout para resolver meu problema no painel do mesmo",
+    "categoria": "automovel",
+    "preco": "65",
+    "created_at": "03/05/2023",
+    "imageUrl": "https://img.estadao.com.br/resources/jpg/6/5/1511721627356.jpg",
+    "tempo_servico": "livre",
+    "situacao": "aberto",
+    "candidatos": [1],
+    "contratante": 2,
+    "distancia_km": "15",
+    "verificado": "sim"
+  },
+  {
+    "id": 3,
+    "descricao": "Cortar Grama",
+    "apresentacao": "Cortar a grama da minha casa",
+    "categoria": "reformas",
+    "preco": "12",
+    "created_at": "05/05/2023",
+    "imageUrl": "https://th.bing.com/th/id/R.ed5e8bcecd03cba4a42075ce69609e3e?rik=zt1CWAEBuRnTjw&pid=ImgRaw&r=0",
+    "tempo_servico": "terminar em 1 dia",
+    "situacao": "aberto",
+    "candidatos": [3, 4],
+    "contratante": 3,
+    "distancia_km": "24",
+    "verificado": "nao"
+  },
+  {
+    "id": 4,
+    "descricao": "Cozinheiro(a)",
+    "apresentacao": "Preciso de cozinheiro para compor equipe de cozinha no meu casamento no fim de semana",
+    "categoria": "eventos",
+    "preco": "15",
+    "created_at": "02/06/2023",
+    "imageUrl": "https://th.bing.com/th/id/OIP.NyhLHtDdpMdfd8OCPg8-nwHaKK?pid=ImgDet&rs=1",
+    "tempo_servico": "13:00 ás 00:00",
+    "situacao": "aberto",
+    "candidatos": [],
+    "contratante": 4,
+    "distancia_km": "24",
+    "verificado": "sim"
+  },
+  {
+    "id": 5,
+    "descricao": "Manutenção em computadores",
+    "apresentacao": "Necessito de técnico de informática para trocar o HD de 8 computadores para SSD, também reinstalando o sistema operacional ",
+    "categoria": "informatica",
+    "preco": "30",
+    "created_at": "10/06/2023",
+    "imageUrl": "https://th.bing.com/th/id/OIP.j1Dlb9SNvNrthLzaqVGfjAHaFM?pid=ImgDet&rs=1",
+    "tempo_servico": "livre",
+    "situacao": "aberto",
+    "candidatos": [4],
+    "contratante": 5,
+    "distancia_km": "50",
+    "verificado": "sim"
+  },
+  {
+    "id": 6,
+    "descricao": "Aulas de reforço",
+    "apresentacao": "Preciso de aulas de reforço com urgência para prova de bioquímica em 1 mês",
+    "categoria": "aulas",
+    "preco": "20",
+    "created_at": "03/06/2023",
+    "imageUrl": "https://th.bing.com/th/id/OIP.6PMZ8pKPn_Ze8ViQuVrnKAHaJ6?pid=ImgDet&rs=1",
+    "tempo_servico": "2 horas p/ dia",
+    "situacao": "aberto",
+    "candidatos": [],
+    "contratante": 1,
+    "distancia_km": "virtual",
+    "verificado": "nao"
+  },
+  {
+    "id": 7,
+    "descricao": "Limpeza de apartamento",
+    "apresentacao": "Preciso de alguém para fazer faxina em apartamento Belo Horizonte",
+    "categoria": "reformas",
+    "preco": "18",
+    "created_at": "03/06/2023",
+    "imageUrl": "https://th.bing.com/th/id/R.9e08bf61a86f5d40c40e22c1567cc647?rik=%2b32%2fQ1NQuJm6VA&pid=ImgRaw&r=0",
+    "tempo_servico": "09:00 - 18:00",
+    "situacao": "fechado",
+    "candidatos": [2],
+    "contratante": 1,
+    "distancia_km": "28",
+    "verificado": "nao"
+  }
+]
 }
